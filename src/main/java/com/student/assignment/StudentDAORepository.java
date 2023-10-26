@@ -1,7 +1,7 @@
-package com.student.assignment;
+package com.mobiles.assignment;
 
 import org.springframework.data.repository.CrudRepository;
 
-public interface StudentDAORepository extends CrudRepository<Student, String>{
+public interface MobilesDAORepository extends CrudRepository<Student, String>{
 
 }
