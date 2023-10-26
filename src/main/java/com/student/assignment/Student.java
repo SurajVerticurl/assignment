@@ -1,23 +1,23 @@
-package com.student.assignment;
+package com.mobiles.assignment;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Entity
-public class Student {
+public class Mobiles {
 	@Id
 	private String id;
-	private String studentName;
-	private String schoolName;
-	public Student() {
+	private String mobileName;
+	private String modelName;
+	public Mobiles() {
 		super();
 		
 	}
-	public Student(String id, String studentName, String schoolName) {
+	public Student(String id, String mobilesName, String modelName) {
 		super();
 		this.id = id;
-		this.studentName = studentName;
-		this.schoolName = schoolName;
+		this.mobileName = mobileName;
+		this.modelName = modelName;
 	}
 	
 	public String getId() {
@@ -26,17 +26,17 @@ public class Student {
 	public void setId(String id) {
 		this.id = id;
 	}
-	public String getStudentName() {
-		return studentName;
+	public String getMobileName() {
+		return mobileName;
 	}
-	public void setStudentName(String studentName) {
-		this.studentName = studentName;
+	public void setMobileName(String mobileName) {
+		this.mobileName = mobileName;
 	}
-	public String getSchoolName() {
-		return schoolName;
+	public String getModelName() {
+		return modelName;
 	}
-	public void setSchoolName(String schoolName) {
-		this.schoolName = schoolName;
+	public void setModelName(String modelName) {
+		this.modelName = modelName;
 	}
 	
 	
